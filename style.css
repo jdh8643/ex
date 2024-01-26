@@ -1,0 +1,20 @@
+<style>
+    a {color: red; text-decoration: none;} 
+    h1{font-size: 60px; text-align: center; border-bottom: 1px solid purple; 
+        margin: 0; padding: 20px;}
+    ul{border-right:1px solid purple; width: 130px; margin: 0; font-size: 30px;
+        padding: 20px;}
+        #grid{
+            display: grid;
+            grid-template-columns: 150px 1fr;
+            padding-left: 40px;
+        }
+        #artile{padding-left: 40px;}
+    @media(max-width:800px){
+        #grid{display: block;}
+        ul{border-right: none;}
+        h1{border-bottom: none;}
+    }
+    .saw{color:gray;}
+    .sos{color: brown;}
+    </style> 
